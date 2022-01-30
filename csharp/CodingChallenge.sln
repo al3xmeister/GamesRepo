@@ -4,6 +4,9 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 VisualStudioVersion = 17.0.32014.148
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "src", "src", "{D7EEE6A0-40C3-495A-84BA-DCFF936E8195}"
+	ProjectSection(SolutionItems) = preProject
+		ApiDesign.cs = ApiDesign.cs
+	EndProjectSection
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "CardGame", "src\CardGame\CardGame.csproj", "{CF078B89-D6A0-470A-8484-071A49D43529}"
 EndProject

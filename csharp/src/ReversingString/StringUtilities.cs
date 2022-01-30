@@ -1,4 +1,7 @@
-﻿namespace CodingChallenge.ReversingString;
+﻿using System.Collections.Generic;
+using System.Diagnostics;
+
+namespace CodingChallenge.ReversingString;
 
 public class StringUtilities
 {
@@ -9,6 +12,7 @@ public class StringUtilities
             char[] textAsArray = s.ToCharArray();
             Array.Reverse(textAsArray);
             var reversedString = new String(textAsArray);
+
             return reversedString;
         }
         else
