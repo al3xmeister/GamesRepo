@@ -4,6 +4,15 @@ public class StringUtilities
 {
     public static string Reverse(string s)
     {
-        throw new NotImplementedException();
+        if (!string.IsNullOrWhiteSpace(s))
+        {
+            char[] array = s.ToCharArray();
+            Array.Reverse(array);
+            return new String(array);
+        }
+        else
+        {
+            return null;
+        }
     }
 }
