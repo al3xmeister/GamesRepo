@@ -6,9 +6,10 @@ public class StringUtilities
     {
         if (!string.IsNullOrWhiteSpace(s))
         {
-            char[] array = s.ToCharArray();
-            Array.Reverse(array);
-            return new String(array);
+            char[] textAsArray = s.ToCharArray();
+            Array.Reverse(textAsArray);
+            var reversedString = new String(textAsArray);
+            return reversedString;
         }
         else
         {
